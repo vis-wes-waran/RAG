@@ -47,7 +47,7 @@ answer = [doc.page_content for doc in vectorstore.similarity_search("Foundations
 
 print(answer)
 
-llm = ChatGroq(groq_api_key="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",model="llama-3.1-8b-instant")
+llm = ChatGroq(groq_api_key="paste_here_api",model="llama-3.1-8b-instant")
 
 def rag():
     quiery = input("Enter Your Quiry")
